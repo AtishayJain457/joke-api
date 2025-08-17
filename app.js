@@ -8,7 +8,10 @@ app.use(bodyParser.json());
 let jokes = [
   { id: 1, type: "general", text: "Why don’t scientists trust atoms? Because they make up everything!" },
   { id: 2, type: "programming", text: "Why do programmers prefer dark mode? Because light attracts bugs!" },
-  { id: 3, type: "dad", text: "I only know 25 letters of the alphabet. I don’t know y." }
+  { id: 3, type: "dad", text: "I only know 25 letters of the alphabet. I don’t know y." },
+  { id: 1, category: "programming", joke: "Why do programmers prefer dark mode? Because light attracts bugs!" },
+  { id: 2, category: "general", joke: "Why don’t skeletons fight each other? They don’t have the guts." },
+  { id: 3, category: "dad", joke: "I only know 25 letters of the alphabet. I don’t know y." }
 ];
 
 // ✅ GET all jokes
